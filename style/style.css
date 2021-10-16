@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Slabo';
+    src: url('../fonts/Slabo_27px/Slabo27px-Regular.ttf');
+}
+@font-face {
+    font-family: 'CrimsonText';
+    src: url('../fonts/CrimsonText/CrimsonText-Regular.ttf');
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background: #16181b;
+    display: flex;
+    justify-content: center;
+}
+.centerCard{
+    background: #B0C4D9;
+    width: 85%;
+    padding: 15px;
+    margin: 45px 30px;
+    border-radius: 2em;
+    
+}
+.lineCard{
+    background: #B0C4D9;
+    width: 85%;
+    padding: 15px;
+    margin: 45px 30px;
+    border-radius: 2em;
+    display: inline-block;
+}
+.lineCardResponsivo{
+    background: #28A745;
+    width: auto;
+    padding: 15px;
+    margin: 45px 30px;
+    border-radius: 2em;
+    display: block;
+}
+.titulos{
+    font-family: 'Slabo';
+    font-weight: bold;
+    font-size: 27px;
+    display: block;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.contentText{
+    
+    font-family:'CrimsonText';
+    font-size: 21px;
+}
+.footerlineCard{
+    color: white;
+    width: 85%;
+    padding: 3px;
+    margin: 12px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
