@@ -1,0 +1,59 @@
+:root{
+    --background1 : #333D29;
+    --background2 : #414833;
+    --background3 : #656D4A;
+    --background4 : #A4AC86;
+    --background5 : #C2C5AA;
+    --background6 : #B6AD90;
+    --background7 : #A68A64;
+    --background8 : #936639;
+    --background9 : #7F4F24;
+    --background10 : #582F0E;
+}
+
+body{
+    background-color: var(--background6);
+    margin: 0px;
+}
+
+h1{
+    color: var(--background6);
+    font-size: 52px; 
+    margin: 0px;
+}
+aside{
+    color: white;
+}
+
+#greetings{
+    background-image: url("/assets/fotoBack.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+#navbar{
+    
+    background-color: var(--background2);
+}
+
+#navbarMenu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 2px;
+    font-size: 22px;
+}
+
+#navbar li{
+    margin: 3px;
+    
+}
+
+.logo{
+    width: 35px;
+}
